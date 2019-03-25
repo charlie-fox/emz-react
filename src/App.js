@@ -14,14 +14,6 @@ class App extends Component {
     return (
       <div className="App">
         
-
-
-
-
-
-  
-
-
         <section className="intro">
           <div className="hero-overlay"/>
           
@@ -33,19 +25,18 @@ class App extends Component {
         </section>
 
         <Sticky scrollClass={scrollClass}>
-      <div className="App-navigation">
-        <div className="logo">
-          logo
-        </div>
-        <div className="links">
-          <div>Portfolio</div>
-          <div>Services</div>
-          <div>About</div>
-          <div>Hire Emily</div>
-        </div>
-        </div>          
-
-                  </Sticky>
+          <div className="App-navigation">
+            <div className="logo">
+              logo
+            </div>
+            <div className="links">
+              <div>Portfolio</div>
+              <div>Services</div>
+              <div>About</div>
+              <div>Hire Emily</div>
+            </div>
+          </div>          
+        </Sticky>
 
         <section className="portfolio">
           
@@ -70,11 +61,60 @@ class App extends Component {
                 <span className="view-on"><a href="#"><FontAwesomeIcon icon={faMedium} size="lg" /> View on Medium</a></span>              
               </div>
             </div>    
-               
-            
+            {/* article */}
+            <div>
+              <div className="article-overlay">
+                <img src="https://source.unsplash.com/random" />
+              </div>
+              <div className="article-content">
+                <span className="title">Article Title Goes Here</span>
+                <span className="excerpt">
+                  Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh...
+                </span>
+                <span className="view-on"><a href="#"><FontAwesomeIcon icon={faMedium} size="lg" /> View on Medium</a></span>              
+              </div>
+            </div> 
+            {/* article */}
+            <div>
+              <div className="article-overlay">
+                <img src="https://source.unsplash.com/random" />
+              </div>
+              <div className="article-content">
+                <span className="title">Article Title Goes Here</span>
+                <span className="excerpt">
+                  Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh...
+                </span>
+                <span className="view-on"><a href="#"><FontAwesomeIcon icon={faMedium} size="lg" /> View on Medium</a></span>              
+              </div>
+            </div> 
+            {/* article */}
+            <div>
+              <div className="article-overlay">
+                <img src="https://source.unsplash.com/random" />
+              </div>
+              <div className="article-content">
+                <span className="title">Article Title Goes Here</span>
+                <span className="excerpt">
+                  Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh...
+                </span>
+                <span className="view-on"><a href="#"><FontAwesomeIcon icon={faMedium} size="lg" /> View on Medium</a></span>              
+              </div>
+            </div> 
+            {/* article */}
+            <div>
+              <div className="article-overlay">
+                <img src="https://source.unsplash.com/random" />
+              </div>
+              <div className="article-content">
+                <span className="title">Article Title Goes Here</span>
+                <span className="excerpt">
+                  Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh...
+                </span>
+                <span className="view-on"><a href="#"><FontAwesomeIcon icon={faMedium} size="lg" /> View on Medium</a></span>              
+              </div>
+            </div>             
           </div>
         </section>
-
 
         <section className="services">
           <h2 className="title">Services</h2>
@@ -89,7 +129,6 @@ class App extends Component {
           <p>Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
         </section>        
 
-        
         <section className="contact">
           <h2 className="title">Contact</h2>
           <p>Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
@@ -105,33 +144,5 @@ class App extends Component {
     );
   }
 }
-
-class Nav extends Component {
-
-  render() {
-    return (
-
-
-      <div className="App-navigation">
-        <div className="logo">
-          logo
-        </div>
-        <div className="links">
-          <div>Portfolio</div>
-          <div>Services</div>
-          <div>About</div>
-          <div>Hire Emily</div>
-        </div>
-        </div>
-
-
-
-    )
-  }
-}
-
-
-
-
 
 export default App;
