@@ -63,10 +63,26 @@ a.button {
   padding: 22px 20px;
   border-radius: 3px;
   font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all .2s;
+
+  &:hover {
+    background-color: #ffffff;;
+    color: $primaryColor
+  }
 
   &.inverse {
     background-color: #ffffff;;
-    color: $primaryColor
+    color: $primaryColor;
+    border: 1px solid #ffffff;
+
+    &:hover {
+      background-color: $primaryColor;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+    }
+
   }
 }
 

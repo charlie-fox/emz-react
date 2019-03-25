@@ -20,7 +20,7 @@ class App extends Component {
           <div className="intro-panel">
             <h2 className="title">Emily Fox</h2>
             <h3 className="subtitle">Freelance Writer</h3>
-            <a className="button">Contact Me</a>
+            <a href="#" className="button">Contact Me</a>
           </div>
         </section>
 
@@ -132,7 +132,7 @@ class App extends Component {
         <section className="contact">
           <h2 className="title">Contact</h2>
           <p>Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-          <a className="button inverse">Say Hello</a>
+          <a href="#" className="button inverse">Say Hello</a>
         </section> 
 
         <section className="footer">
