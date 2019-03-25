@@ -42,6 +42,7 @@ h3.subtitle {
   letter-spacing: 0.65em;
   text-indent: 0.65em;
   display: inline;
+  font-weight: 900;
 }
 
 h4.description {
@@ -62,7 +63,7 @@ a.button {
   text-indent: 0.3em;  
   padding: 22px 20px;
   border-radius: 3px;
-  font-weight: 600;
+  font-weight: 800;
   color: #ffffff;
   text-decoration: none;
   transition: all .2s;
@@ -89,6 +90,7 @@ a.button {
 
 section {
   display: grid;
+  text-align: center;
 }
 
 // NAVIGATION
@@ -100,7 +102,7 @@ section {
   height: 80px;
   color: white;
   display: grid;
-  grid-template-columns: 80px 1fr;
+  grid-template-columns: auto 1fr;
   align-items: center;
   grid-gap: 20px 20px;
   background-color: $primaryColor;
@@ -108,7 +110,15 @@ section {
 
   .logo {
     justify-self: center;
+    align-self: center;
+    align-items: center;
+    font-size: 19px;
+    margin-left: 20px;
     // padding: 20px;
+
+    img {
+      display: block;
+    }
   }
 
   .links {
@@ -212,7 +222,7 @@ section.portfolio {
   > div {
     // height: 230px; 
     text-align: left;
-    border-radius: 12px;
+    border-radius: 3px;
     color: #ffffff;
     position: relative;
     overflow: hidden;
@@ -239,7 +249,7 @@ section.portfolio {
     span.title {
       font-size: 32px;
       font-weight: 900;
-      letter-spacing: -0.04em;
+      letter-spacing: -0.03em;
       display: block;
     }
 
@@ -262,7 +272,7 @@ section.portfolio {
       bottom: 0;
       left: 0;
       object-fit: cover;
-      opacity: 0.2;
+      opacity: 0.4;
       z-index: 0;
       pointer-events: none;
 
